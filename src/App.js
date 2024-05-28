@@ -22,6 +22,7 @@ import QrCodePage from "../src/view/qr/QrCodePage";
 import Transaction from "../src/Components/transaction/TransactionHistory";
 import { TransactionProvider } from "../src/Components/context/TransactionContext";
 import ForgotPassword from "./Components/googleSignIn/ForgotPassword";
+import AddMedicalRecord from './view/veterinarian/AddMedicalRecord'; 
 
 function MainContent() {
   const location = useLocation();
@@ -73,6 +74,7 @@ function MainContent() {
             <Route path="/qr" element={<QrCodePage />} />
             <Route path="/transaction-history" element={<Transaction />} />
             <Route path="/reset" element={<ForgotPassword />} />
+            <Route path="/veterinarian" element={<AddMedicalRecord />} />
           </Routes>
         </>
       )}

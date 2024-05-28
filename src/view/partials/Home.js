@@ -53,6 +53,8 @@ function Home() {
     e.target.reset();
   };
 
+  
+
   useEffect(() => {
     const options = {
       strings: ["Grooming", "Healthcare", "Daycare", "Training"],
@@ -96,6 +98,49 @@ function Home() {
               src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/440942530_423620990437817_5689570377664203254_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BFrjCE_IQ8AQ7kNvgHNUkAr&_nc_ht=scontent.fsgn2-6.fna&oh=00_AYAE-6ge9dx5ooH4pzNnSfurgsz5i8tv1ymwOloTS8-CyQ&oe=66576FD2"
             />
           </div>
+          <div className="spacer"></div>
+           <div className="momentsFa">
+           <div className="khonhKhcThCngWrapper">
+                  <h1 className="khonhKhcThContainer">
+                    <p className="khonhKhcTh">Pet Moments</p>
+                  </h1>
+                </div>
+            <button className="buttonM">
+                  <div className="clickHere">View more</div>
+                  <img
+                    className="arrowChevronRightMd"
+                    alt=""
+                    src="/public/arrow--chevron-right-md.svg"
+                    
+                  />
+                </button>
+          </div>
+          <div className="imageofpets">
+              <img
+                className="image1"
+                loading="lazy"
+                alt=""
+                src="/image-12@2x.png"
+              />
+              <img
+                className="image2"
+                loading="lazy"
+                alt=""
+                src="/image-13@2x.png"
+              />
+              <img
+                className="image3"
+                loading="lazy"
+                alt=""
+                src="/image-14@2x.png"
+              />
+              <img
+                className="image4"
+                loading="lazy"
+                alt=""
+                src="/image-15@2x.png"
+              />
+            </div> 
         </section>
       </div>
       <section className="about" id="about">
